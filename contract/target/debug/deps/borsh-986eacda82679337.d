@@ -1,0 +1,11 @@
+/Users/kenjonmiyachi/eng/registry-near/contract/target/debug/deps/borsh-986eacda82679337.rmeta: /Users/kenjonmiyachi/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-0.9.3/src/lib.rs /Users/kenjonmiyachi/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-0.9.3/src/de/mod.rs /Users/kenjonmiyachi/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-0.9.3/src/de/hint.rs /Users/kenjonmiyachi/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-0.9.3/src/schema.rs /Users/kenjonmiyachi/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-0.9.3/src/schema_helpers.rs /Users/kenjonmiyachi/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-0.9.3/src/ser/mod.rs /Users/kenjonmiyachi/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-0.9.3/src/ser/helpers.rs
+
+/Users/kenjonmiyachi/eng/registry-near/contract/target/debug/deps/borsh-986eacda82679337.d: /Users/kenjonmiyachi/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-0.9.3/src/lib.rs /Users/kenjonmiyachi/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-0.9.3/src/de/mod.rs /Users/kenjonmiyachi/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-0.9.3/src/de/hint.rs /Users/kenjonmiyachi/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-0.9.3/src/schema.rs /Users/kenjonmiyachi/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-0.9.3/src/schema_helpers.rs /Users/kenjonmiyachi/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-0.9.3/src/ser/mod.rs /Users/kenjonmiyachi/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-0.9.3/src/ser/helpers.rs
+
+/Users/kenjonmiyachi/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-0.9.3/src/lib.rs:
+/Users/kenjonmiyachi/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-0.9.3/src/de/mod.rs:
+/Users/kenjonmiyachi/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-0.9.3/src/de/hint.rs:
+/Users/kenjonmiyachi/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-0.9.3/src/schema.rs:
+/Users/kenjonmiyachi/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-0.9.3/src/schema_helpers.rs:
+/Users/kenjonmiyachi/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-0.9.3/src/ser/mod.rs:
+/Users/kenjonmiyachi/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-0.9.3/src/ser/helpers.rs:
