@@ -1,7 +1,7 @@
 [package]
-name = "hello_near"
+name = "registry-near"
 version = "1.0.0"
-authors = ["Near Inc <hello@near.org>"]
+authors = ["Ken <ken@near.foundation>"]
 edition = "2021"
 
 [lib]
@@ -10,6 +10,7 @@ crate-type = ["cdylib"]
 [dependencies]
 near-sdk = "4.0.0"
 uint = { version = "0.9.3", default-features = false }
+serde = "1.0.188"
 
 [profile.release]
 codegen-units = 1

@@ -1,8 +1,9 @@
 use near_sdk::borsh::{self, BorshDeserialize, BorshSerialize};
 use near_sdk::{env, near_bindgen, AccountId, PanicOnDefault};
+use serde::{Deserialize, Serialize};
 
 // Updated Representation of a project
-#[derive(BorshDeserialize, BorshSerialize, Clone)]
+#[derive(BorshDeserialize, BorshSerialize, Serialize, Deserialize, Clone)]
 pub struct Project {
     name: String,
     description: String,
@@ -14,7 +15,7 @@ pub struct Project {
 }
 
 #[near_bindgen]
-#[derive(BorshDeserialize, BorshSerialize)]
+#[derive(BorshDeserialize, BorshSerialize, Serialize)]
 pub struct ProjectRegistry {
     owner: AccountId,
     admin: AccountId,
@@ -27,6 +28,20 @@ impl Default for ProjectRegistry {
             owner: "social.near".parse().unwrap(),
             admin: "social.near".parse().unwrap(),
             projects: Vec::new(),
+        }
+    }
+}
+
+impl Default for Project {
+    fn default() -> Self {
+        Self {
+            name: "".to_string(),
+            description: "".to_string(),
+            link: "".to_string(),
+            verified: false,
+            category: "".to_string(),
+            tags: Vec::new(),
+            metadata: "".to_string(),
         }
     }
 }
@@ -81,10 +96,10 @@ impl ProjectRegistry {
         self.projects[index] = project;
     }
 
-    // pub fn bulk_add_projects(&mut self, projects: Vec<Project>) {
-    //     self.assert_owner();
-    //     self.projects.extend(projects);
-    // }
+    pub fn bulk_add_projects(&mut self, projects: Vec<Project>) {
+        self.assert_owner();
+        self.projects.extend(projects);
+    }
 
     pub fn verify_project(&mut self, index: usize) {
         self.assert_admin();
